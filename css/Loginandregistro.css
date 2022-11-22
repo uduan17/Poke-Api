@@ -1,0 +1,103 @@
+body{
+    background: rgb(70, 67, 131); background: -moz-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,22,84,1)), color-stop(100%, rgba(67,198,172,1))); background: -webkit-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%); background: -o-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%); background: -ms-linear-gradient(left, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%); background: linear-gradient(to right, rgba(25,22,84,1) 0%, rgba(67,198,172,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191654', endColorstr='#43c6ac', GradientType=1 )
+
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  
+
+.contenedor{
+    padding: 15px;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.349);
+}
+
+.paratodo{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenido{
+    margin: auto;
+    text-align: center;
+}
+
+.contenido input{
+    background-color: rgba(133, 74, 133, 0.164);
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: solid 1px rgb(133, 74, 133);
+}
+
+.contenido button{
+    width: 40%;
+    margin-top: 2.5%;
+    border-radius: 3px;
+    border: solid 2px rgb(133, 74, 133);
+}
+
+.error{
+    margin-top: 1%;
+}
+
+.bad{
+    background-color: rgba(219, 192, 192, 0.918);
+    border: 1px rgba(230, 13, 13, 0.671);
+    border-radius:5px;
+    width: 25%;
+    margin: auto;
+    padding: 1%;
+    filter: drop-shadow(5px 6px 5px rgba(0, 0, 0, 0.295));
+    /* margin-top: 3%; */
+text-align: center;
+    font-size: 18px;
+color: rgba(223, 39, 39, 0.788);
+}
+
+
+.contenido button:hover{
+  background-color:  rgb(133, 74, 133);
+  color: white;
+  transition: all ease 400ms;
+}
+
+.contenido a{
+    font-weight: bold;
+    color: rgb(58, 18, 58);
+}
+
+.contenido a:hover{
+    transition: all 500ms;
+    color: rgb(133, 74, 133);
+}
+
+
+footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    /* height: 40px; */
+  }
+
+
+@media (min-width:350px) and (max-width:720px){
+ .contenedor{
+    width: 85%;
+ }   
+}
